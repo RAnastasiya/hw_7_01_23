@@ -35,7 +35,7 @@ function checkNumber(value){
 
 const value1 = "4";
 const value2 = 4;
-console.log(compareTwoNumbers(value1, value2));
+console.log(compareTwoValues(value1, value2));
 
 /**
  * 
@@ -43,7 +43,7 @@ console.log(compareTwoNumbers(value1, value2));
  * @param {any} value2 
  * @returns {any | null}
  */
-function compareTwoNumbers(value1, value2) {
+function compareTwoValues(value1, value2) {
     if(typeof value1 === typeof value2) {
         if(value1 === value2) return null;
         if(value1 > value2) return value1;
